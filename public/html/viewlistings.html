@@ -1,10 +1,10 @@
 <h3>Current Listings</h3>
 <div ng-repeat="listing in listings">
-  <h3>{{listing.title}}</h3>
+  <h3>{{listing.title}} only ${{listing.price}} per pound!</h3>
   <h3>{{listing.store.name}}</h3>
   <h3>{{listing.store.address.city}},{{listing.store.address.state}}</h3>
   <h4>{{listing.name}}</h4>
-  <h4>{{listing.pic}}</h4>
-  <h4>{{listing.quantity}}</h4>
+  <h4><img src={{listing.pic}}></h4>
+  <h4>{{listing.quantity}} available</h4>
 </div>
 </div>

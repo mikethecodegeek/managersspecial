@@ -4,11 +4,11 @@
 <button ui-sref="newlisting">Create new listing</button>
 <div>
   <h3>Current Listings</h3>
-  <div>
-    <h3>Listing Title</h3>
-    <h4>Item Name</h4>
-    <h4>Item Pic</h4>
-    <h4>Item Quantity</h4>
+  <div ng-repeat = "listing in store.listings">
+    <h3>{{listing.title}}</h3>
+    <h4>{{listing.name}}</h4>
+    <img src ={{listing.pic}}></h4>
+    <h4>{{listing.quantity}} available</h4>
   </div>
 </div>
 

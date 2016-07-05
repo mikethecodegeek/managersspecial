@@ -30,7 +30,7 @@ userSchema.statics.auth = role => {
                 return res.status(401).send({error: 'Authentication required.'});
             }
             User.findById(payload._id)
-                .populate('transactions')
+                .populate('listings')
                 .select('-password')
             .exec((err, user) => {
                 if(err || !user) return res.status(401).send({error: 'User not found.'});
