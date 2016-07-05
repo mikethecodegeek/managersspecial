@@ -1,0 +1,762 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,700';
+
+* {
+      font-family: 'Roboto', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+
+.storethumb {
+  height: 150px;
+}
+
+.navbar .navbar-collapse {
+    background-color: #0774B5;
+    color: white;
+
+}
+.navbar .navbar-nav li a {
+    background-color: #0774B5;
+    color: white;
+}
+
+.navbar .navbar-nav li a:hover {
+    text-decoration: none;
+    color: #0774B5;
+}
+
+.sellImg {
+    max-height: 175px;
+    margin-top: 2%;
+}
+
+.sellImg:hover {
+/*    min-width: 200px;
+    max-width: 200px;*/
+transform: scale(1.2, 1.2);
+
+}
+.btn {
+    margin: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+#dropdownMenu1 {
+    width: 95%;
+}
+
+#dropdownMenu2 {
+    width: 95%;
+}
+
+#dropdownMenu3 {
+    width: 95%;
+}
+
+.getQuote {
+    text-align: center;
+}
+
+.color {
+    float: left;
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+.locked {
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#getQuote {
+    display:block;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.aboutRow {
+    padding: 8%;
+    background-color: #75CADD;
+    color: #0774B5;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.legalRow {
+    padding: 8%;
+    background-color: #75CADD;
+    color: #0774B5;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+
+.testimonialsRow, .businessRow{
+    padding: 8%;
+    background-color: #75CADD;
+    color: #0774B5;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.settingsRow {
+    padding: 2%;
+    background-color: #75CADD;
+    color: #0774B5;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.testimonialsRow h2 {
+    text-align: left;
+}
+
+.stepsHeader {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.testimonialsRow img {
+    margin-top: -10%;
+    width: 90%;
+}
+
+.numberOne {
+    margin-left: 5%;
+
+
+
+
+}
+.testimonialsRow img.customerImg {
+    margin-top: 15%;
+
+}
+
+.testimonialsRow p {
+    margin-top: -80%;
+    z-index: 2;
+    color: white;
+    padding: 25%;
+    font-size: 18px;
+    text-align: center;
+    margin-left: -18%;
+
+}
+
+.updateOrderInfo {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-bottom: 5%;
+
+}
+.aboutRow a {
+    color: white;
+}
+.deviceImg {
+    display:block;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+
+.controlImage {
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.adding {
+    margin-left: 20%;
+}
+
+blockquote .card-blockquote {
+    min-width: 285px;
+    max-width: 285px;
+    min-height: 190px;
+    max-height: 190px;
+
+}
+
+.deviceTypes {
+    bottom: 0;
+}
+
+.block {
+    background-color: #3459ed;
+    margin-top: 3%;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+
+.repeatRow {
+    margin-bottom: 10%;
+}
+#repeatCapacity, #repeatDevice, #repeatBrand, #repeatModel {
+    margin-left: 5%;
+}
+
+.conditionDesc {
+    max-height: 200px;
+    min-height: 200px;
+    color: #0774B5;
+    background-color: #e0e0e0;
+    padding: 4%;
+    font-size: 16px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+.center {
+    text-align: center;
+}
+
+.deviceHeader {
+    margin-bottom: 3%;
+}
+.submitBtn {
+    margin-bottom: 5%;
+}
+
+#sendMessage {
+    margin-bottom: 5%;
+
+}
+
+.bottom {
+    margin-bottom: 5%;
+}
+
+.sellInstructions {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.instructions {
+    margin-bottom: 3%;
+    font-size: 16px;
+}
+
+
+
+
+.new {
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+.settings {
+    margin-top: 3%;
+}
+.searchInput {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.deviceType:hover {
+    width: 125px;
+    cursor: pointer;
+}
+
+#addDeviceCat {
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+.categoriesContainer {
+    background-color: #F8F8F8;
+    color: #286090;
+
+}
+
+.devicesContainer {
+    margin-top: 5%;
+    background-color: #F8F8F8;
+    color: #286090;
+}
+
+.currentDevicesContainer {
+    margin-top: 5%;
+    background-color: #F8F8F8;
+    color: #286090;
+}
+
+.top {
+    margin-top: 2%;
+}
+
+.item {
+    min-width: 275px;
+    max-width: 275px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+
+.brandBtn, .modelBtn {
+    margin-top: -1px;
+}
+
+.selectionImage {
+    min-height: 200px;
+    max-height: 200px;
+/*    min-width: 200px;*/
+    max-width: 200px;
+}
+.left {
+    margin-left: 2%;
+}
+
+
+.title {
+    background-color: #286090;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.topMargin {
+    margin-top: 5%;
+}
+
+
+.adminMenu {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20%;
+}
+
+.adminMenu:hover {
+    font-size: 22px;
+}
+.adminRow {
+    margin-top: 40%;
+    color: white;
+}
+
+#manageDevices {
+    color: white;
+    margin-bottom: 5%;
+    padding-left: 4%;
+}
+
+.backArrowBtn {
+    margin-top: 3%;
+    color: #0774B5;
+}
+.backArrow  {
+    float: left;
+    margin-top: 6%;
+}
+
+.thumbnail {
+    max-height: 450px;
+    min-height: 450px;
+}
+
+.quoteTitle {
+    color: #0774B5;
+    font-size: 24px;
+}
+
+.info1 {
+    background color: #0774B5;
+}
+.info2 {
+    background color: #56ACE3;
+}
+.info3 {
+    background color: #0774B5;
+}
+.actionCall1 {
+    text-align: left;
+    color: #75cadd;
+    font-size: 28px;
+    margin-top: 12%;
+}
+.actionCall2 {
+    text-align: left;
+    color: #0774B5;
+    font-size: 24px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+
+.getQuoteBlock {
+    color: white;
+    text-align: left;
+
+}
+.testimonialImg {
+    box-shadow: 2px 2px 2px #5e6263;
+    margin-top: 20%;
+    width: 95%;
+}
+
+.speechSmall {
+    width: 95%;
+}
+.actionQuoteBox {
+    background-color: #dc911b;
+    color: white;
+    padding: 3%;
+    box-shadow: 2px 2px 2px #5e6263;
+}
+.tellUs {
+    margin-top: 4%;
+}
+
+.getQuoteBtn {
+    color: white;
+    background-color: #0774B5;
+    margin-top: 5%;
+}
+.adminNavbar {
+    background-color: #286090;
+    width: 102%;
+    margin-bottom: 3%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.adminNavLinks {
+    color: white;
+    font-size: 14px;
+}
+
+.adminNavLinks:hover {
+    font-size: 16px;
+    color: #FF7500;
+}
+
+.actions {
+    font-size: 18px;
+}
+.number {
+    font-size: 112px;
+    margin-bottom: 0;
+    color: #75CADD;
+}
+.deviceRow {
+    margin-top: 5%;
+    color: #0774B5;
+    margin-bottom: 3%;
+}
+
+.quoteNowBtn {
+    background-color: #DC911B;
+    color: white;
+    margin-top: 25%;
+}
+
+div.actionCallRow .row {
+    color: white;
+}
+#testimonial1 {
+  position: relative;
+  width: 102%;
+  left: 0;
+  color: #0774B5;
+  background-color: #75cadd;
+  padding: 3%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  box-shadow: 2px 2px 2px #1b2223;
+
+}
+
+
+.negMarginTop {
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+
+#testimonial2 {
+    position: relative;
+    width: 102%;
+    left: 0;
+    color: #0774B5;
+    background-color: #75cadd;
+    padding: 3%;
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px #1b2223;
+}
+
+div.actionCallRow p {
+    color: white;
+    font-size: 16px;
+}
+
+
+.footerRow {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    color: white;
+    background-color: #0774B5;
+    padding: 3%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+.footerRow a {
+  color: #DC911B;
+
+}
+
+div.actionText p {
+    font-size: 18px;
+}
+
+#selectDeviceHead {
+    margin-bottom: 5%;
+}
+
+.footerRow a:hover {
+    color: white;
+}
+
+.copyright {
+    margin-bottom: -1%;
+    margin-left: 2%;
+}
+
+#aboutHeader, #testimonialHeader, #updateOrdersHeader, #updateUsersHeader {
+    margin-top: 1%;
+}
+
+.userDetails {
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.actionCallRow {
+/*    position: absolute;*/
+    width: 102%;
+    left: 0;
+    color: white;
+    background-color: #0774B5;
+    padding: 3%;
+    margin-bottom: 2%;
+    margin-top: 0;
+    box-shadow: 2px 2px 2px #1b2223;
+}
+
+.adminNav {
+    background-color: #286090;
+}
+
+.blue {
+ color: #286090;
+}
+
+#deviceNav {
+    margin-left: 0;
+    margin-right: 0;
+}
+.selectionRow {
+    color: white;
+    background-color: #0774B5;
+}
+
+.radioLabel {
+    font-size: 18px;
+    color: #F29100;
+    font-size: 24px;
+}
+
+.radio {
+    text-align: center;
+    margin-top: 10%;
+    color: #F29100;
+    font-size: 20px;
+}
+
+
+#deviceSearchBox {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
+.middle {
+    height: 55px;
+      /* equals max image height */
+    max-width: 100px;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+    margin-top: 0%;
+}
+
+.detailsTitle {
+    color: #0774B5;
+    margin-bottom: 5%;
+}
+
+.helper {
+    display: inline-block;
+    height: 120%;
+    vertical-align: middle;
+}
+.helper2 {
+  display: inline-block;
+  height: 150%;
+  vertical-align: middle;
+  margin-top: -10%;
+}
+
+.mediaRow {
+    margin-top: -2%;
+}
+
+.actionIcon {
+    float: right;
+}
+
+.actionText {
+    margin-top: 25px;
+}
+
+div.actionText h3 {
+    font-size: 28px;
+}
+
+
+
+/*Kim's Styles Start*/
+.navbar-default {
+    background: rgba(0,0,0,0.0);
+    border-color: rgba(0,0,0,0.0);
+}
+
+.landing-heading {
+    padding: 10% 5% 10% 5%;
+}
+
+.general-section {
+  background-color:#fff;
+  padding: 5% 5% 10% 5%;
+
+}
+
+.device-card {
+/*    position: relative;*/
+    height: 250px;
+    border: 1px solid #D3D3D3;
+    text-align:center;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.deviceEach {
+
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.profile-wrapper {
+  background-color: #fff;
+  padding: 5% 5% 5% 5%;
+  margin: 0% 10% 0% 10%;
+}
+
+.send-message-wrapper {
+  text-align: center;
+  margin: 0% 10% 0% 10%;
+
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #1e3c72;
+}
+
+
+.nav-logo {
+  max-height: 50px;
+}
+
+.well {
+
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+
+}
+
+.profileState {
+  min-height: 700px;
+}
+
+@keyframes blink {
+    0% {
+           background-color: rgba(133,182,223,1)
+    }
+    50% {
+           background-color: rgba(133,182,223,0.5)
+    }
+    100% {
+           background-color: rgba(133,182,223,1)
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+           background-color: rgba(133,182,223,1)
+    }
+    50% {
+           background-color: rgba(133,182,223,0.5)
+    }
+    100% {
+           background-color: rgba(133,182,223,1)
+    }
+}
+
+.progAnimate {
+  padding: 7px 7px 7px 7px;
+/*text-align:center;
+margin-bottom: 4px;
+font-size: 24px;
+border-radius: 5px;*/
+-moz-transition:all 0.5s ease-in-out;
+-webkit-transition:all 0.5s ease-in-out;
+-o-transition:all 0.5s ease-in-out;
+-ms-transition:all 0.5s ease-in-out;
+transition:all 0.5s ease-in-out;
+-moz-animation:blink normal 1.5s infinite ease-in-out;
+/* Firefox */
+-webkit-animation:blink normal 1.5s infinite ease-in-out;
+/* Webkit */
+-ms-animation:blink normal 1.5s infinite ease-in-out;
+/* IE */
+animation:blink normal 1.5s infinite ease-in-out;
+/* Opera */
+}
+/*Kim's Styles End*/
